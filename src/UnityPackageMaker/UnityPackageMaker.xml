@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UnityPackageMaker</name>
+    </assembly>
+    <members>
+        <member name="T:UnityPackageMaker.PackageManifest">
+            <summary>
+            Struct matching the packages manifest.json
+            </summary>
+        </member>
+        <member name="P:UnityPackageMaker.PackageManifest.Name">
+            <summary>
+            Gets or sets the full name of the package i.e "com.lukeparker.package".
+            </summary>
+        </member>
+        <member name="P:UnityPackageMaker.PackageManifest.DisplayName">
+            <summary>
+            Gets or sets the display name for the package.
+            </summary>
+        </member>
+        <member name="P:UnityPackageMaker.PackageManifest.Version">
+            <summary>
+            Gets or sets the package version.
+            </summary>
+        </member>
+        <member name="P:UnityPackageMaker.PackageManifest.Unity">
+            <summary>
+            Gets or sets the minimum unity version the package supports.
+            </summary>
+        </member>
+        <member name="P:UnityPackageMaker.PackageManifest.Description">
+            <summary>
+            Gets or sets the package description.
+            </summary>
+        </member>
+        <member name="P:UnityPackageMaker.PackageManifest.Keywords">
+            <summary>
+            Gets or sets the keywords for the package.
+            </summary>
+        </member>
+        <member name="P:UnityPackageMaker.PackageManifest.Category">
+            <summary>
+            Gets or sets the category of the package.
+            </summary>
+        </member>
+        <member name="T:UnityPackageMaker.Program">
+            <summary>
+            Main Program.
+            </summary>
+        </member>
+    </members>
+</doc>
